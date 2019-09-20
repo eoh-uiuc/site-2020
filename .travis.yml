@@ -4,7 +4,26 @@ node_js:
 cache:
   yarn: true
   directories:
-  - node_modules
+    - node_modules
 script:
   - yarn test && yarn build
-  
+deploy:
+  - provider: s3
+    access_key_id: $EOH_ACCESS_KEY
+    secret_access_key: $EOH_SECRET_KEY
+    bucket: "www.eohillinois.org"
+    skip_cleanup: true
+    region: us-east-1
+    local-dir: build
+    on:
+      branch: master
+  - provider: s3
+    access_key_id: $EOH_ACCESS_KEY
+    secret_access_key: $EOH_SECRET_KEY
+    bucket: "staging.eohillinois.org"
+    skip_cleanup: true
+    region: us-east-2
+    local-dir: build
+    on:
+      branch: staging
+      
