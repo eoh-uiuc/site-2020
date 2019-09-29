@@ -1,17 +1,27 @@
 import React from 'react';
-import logo from './assets/logo-white.png';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import Home from 'scenes/Home';
+import Footer from 'components/Footer';
+import About from 'scenes/About';
+import Nav from 'components/Nav';
+import ExternalRoute from 'scenes/ExternalRoute';
+
+import corporatePacket from 'assets/EOH-100-Corporate-Packet.pdf';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Engineering Open House</h1>
-        <h2>University of Illinois at Urbana-Champaign</h2>
-        <h3>March 27 - 28, 2020</h3>
-      </header>
-    </div>
+    <Router>
+      <div classname="App">
+      <Nav />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" exact component={About} />
+          <Route path="/sponsor" exact component={ExternalRoute(corporatePacket)} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

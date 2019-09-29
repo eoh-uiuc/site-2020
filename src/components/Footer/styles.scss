@@ -1,0 +1,33 @@
+.footer {
+    background-color: #111;
+  
+    .links {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      height: 106px;
+      justify-content: center;
+  
+      a {
+        border: 2px solid white;
+        border-radius: 100px;
+        height: 60px;
+        margin: 0 9px;
+        width: 60px;
+  
+        img {
+          display: block;
+          height: 26px;
+          margin: auto;
+          padding-top: 16px;
+          position: relative;
+        }
+      }
+    }
+    .lower-links {
+      text-align: center;
+      padding-bottom: 20px;
+      font-family: 'Montserrat', sans-serif;
+      a, p { display: inline; color: white; text-decoration: none;}
+    }
+  }
