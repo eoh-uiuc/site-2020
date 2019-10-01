@@ -1,0 +1,66 @@
+.about {
+  background: #222;
+  box-sizing: border-box;
+  min-height: calc(100vh - 110px);
+  padding: 100px 70px;
+  width: 100%;
+
+  .committee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .member {
+      box-sizing: border-box;
+      height: 27vw;
+      padding: 20px;
+      width: 25%;
+
+      @media (max-width: 1024px) {
+        height: 37vw;
+        width: 33.333333%;
+      }
+
+      @media (max-width: 768px) {
+        height: 55vw;
+        width: 50%;
+      }
+
+      @media (max-width: 600px) {
+        height: 120vw;
+        width: 100%;
+      }
+
+      .content {
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 100%;
+        position: relative;
+        width: 100%;
+
+        .info {
+          background-color: rgba(0,0,0,0.7);
+          bottom: 0;
+          box-sizing: border-box;
+          opacity: 0;
+          padding: 10px;
+          position: absolute;
+          text-align: center;
+          transition: opacity 0.3s;
+          width: 100%;
+
+          color: white;
+          font-family: 'Montserrat', sans-serif;
+
+          h4 { font-size: 20px; }
+          h6 { font-size: 15px; }
+          p { font-size: 12px; }
+        }
+
+        &:hover {
+          .info { opacity: 1; }
+        }
+      }
+    }
+  }
+}
