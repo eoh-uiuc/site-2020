@@ -16,8 +16,8 @@ function App() {
       <Nav />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/about" exact component={About} />
           <Route path="/sponsor" exact component={ExternalRoute(corporatePacket)} />
+          <Route path="/about" exact component={About} />
         </Switch>
         <Footer />
       </div>

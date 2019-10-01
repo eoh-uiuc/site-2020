@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import fb from 'assets/icons/facebook.svg';
 import twitter from 'assets/icons/twitter.svg';
 import instagram from 'assets/icons/instagram.svg';
+
+import corporatePacket from 'assets/EOH-100-Corporate-Packet.pdf';
 
 import './styles.scss';
 
@@ -21,7 +22,7 @@ const Footer = () => (
         </a>
       </div>
       <div className="lower-links">
-        <Link to="/sponsor">Support Us</Link>
+        <a href={corporatePacket}>Support Us</a>
         <p> | </p>
         <a href="mailto:eoh@ec.illinois.edu">Contact Us</a>
       </div>

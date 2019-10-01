@@ -2,7 +2,7 @@
   background: #222;
   box-sizing: border-box;
   min-height: calc(100vh - 110px);
-  padding: 100px 80px;
+  padding: 100px 70px;
   width: 100%;
 
   .committee {
@@ -49,12 +49,12 @@
           transition: opacity 0.3s;
           width: 100%;
 
-          font-family: 'Montserrat', sans-serif;
           color: white;
+          font-family: 'Montserrat', sans-serif;
 
-          h4 { font-size: 1.5rem; }
-          h6 { font-size: 1rem; }
-          p { font-size: 15px; }
+          h4 { font-size: 20px; }
+          h6 { font-size: 15px; }
+          p { font-size: 12px; }
         }
 
         &:hover {
