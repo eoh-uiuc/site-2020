@@ -1,4 +1,25 @@
 import Sujal from 'assets/headshots/Sujal.jpg';
+import Emma from 'assets/headshots/Emma.jpg';
+import Emily from 'assets/headshots/Emily.jpg';
+import Brandon from 'assets/headshots/Brandon.jpg';
+import Ryan from 'assets/headshots/Ryan.jpg';
+import Sabrina from 'assets/headshots/Sabrina.jpg';
+import Maneesh from 'assets/headshots/Maneesh.jpg';
+import Savni from 'assets/headshots/Savni.jpg';
+import Siddharth from 'assets/headshots/Siddharth.jpg';
+import Alara from 'assets/headshots/Alara.jpg';
+import Samira from 'assets/headshots/Samira.jpg';
+import Alice from 'assets/headshots/Alice.jpg';
+import Priya from 'assets/headshots/Priya.jpg';
+import Ammar from 'assets/headshots/Ammar.jpg';
+import Isha from 'assets/headshots/Isha.jpg';
+import Lauren from 'assets/headshots/Lauren.jpg';
+import Rahul from 'assets/headshots/Rahul.jpg';
+import Shreya from 'assets/headshots/Shreya.jpg';
+import Jackie from 'assets/headshots/Jackie.jpg';
+import Daniela from 'assets/headshots/Daniela.jpg';
+import Nafiz from 'assets/headshots/Nafiz.jpg';
+import Jenni from 'assets/headshots/Jenni.jpg';
 
 const committee = [
   {
@@ -6,42 +27,42 @@ const committee = [
     position: 'Director of EOH',
     major: 'Ag. and Bio Engineering',
     year: 'Senior',
-    image: Sujal,
+    image: Emma,
   },
   {
     name: 'Emily Roth',
     position: 'Director of Exhibits',
     major: 'Systems Engineering',
     year: 'Junior',
-    image: Sujal,
+    image: Emily,
   },
   {
     name: 'Brandon Wang',
     position: 'Senior Corporate Director',
     major: 'Computer Science',
     year: 'Junior',
-    image: Sujal,
+    image: Brandon,
   },
   {
     name: 'Ryan Schiffer',
     position: 'Junior Corporate Director',
     major: 'Civil and Env. Engineering',
     year: 'Senior',
-    image: Sujal,
+    image: Ryan,
   },
   {
     name: 'Sabrina Moheydeen',
     position: 'Junior Corporate Director',
     major: 'Computer Engineering',
     year: 'Sophomore',
-    image: Sujal,
+    image: Sabrina,
   },
   {
     name: 'Maneesh Madala',
     position: 'Director of Judging and Awards',
     major: 'Computer Engineering',
     year: 'Junior',
-    image: Sujal,
+    image: Maneesh,
   },
   {
     name: 'Bella Ramos',
@@ -55,42 +76,42 @@ const committee = [
     position: 'Director of Facilites and Equipment',
     major: 'Computer Engineering',
     year: 'Junior',
-    image: Sujal,
+    image: Savni,
   },
   {
     name: 'Siddharth Kandimalla',
     position: 'Director of Traffic and Safety',
     major: 'Mechanical Engineering',
     year: 'Sophomore',
-    image: Sujal,
+    image: Siddharth,
   },
   {
     name: 'Alara Sunar',
     position: 'Director of Vistor’s Information',
     major: 'Bioengineering',
     year: 'Sophomore',
-    image: Sujal,
+    image: Alara,
   },
   {
     name: 'Samira Tungare',
     position: 'Director of External Marketing',
     major: 'Electrical Engineering',
     year: 'Senior',
-    image: Sujal,
+    image: Samira,
   },
   {
     name: 'Alice Perng',
     position: 'Director of Internal Marketing',
     major: 'Computer Science',
     year: 'Junior',
-    image: Sujal,
+    image: Alice,
   },
   {
     name: 'Priya Bharath',
     position: 'Director of Internal Relations',
     major: 'Material Science and Eng.',
     year: 'Senior',
-    image: Sujal,
+    image: Priya,
   },
   {
     name: 'Sujal Sutaria',
@@ -104,14 +125,14 @@ const committee = [
     position: 'Director of HSDC',
     major: 'Computer Engineering',
     year: 'Junior',
-    image: Sujal,
+    image: Ammar,
   },
   {
     name: 'Isha Tyle',
     position: 'Director of MSDC',
     major: 'Mechanical Engineering',
     year: 'Junior',
-    image: Sujal,
+    image: Isha,
   },
   {
     name: 'Michael Gale',
@@ -125,42 +146,49 @@ const committee = [
     position: 'Director of Technology',
     major: 'Computer Science',
     year: 'Sophomore',
-    image: Sujal,
+    image: Lauren,
   },
   {
     name: 'Rahul Krishnan',
     position: 'Director of Technology',
     major: 'Computer Engineering',
     year: 'Senior',
-    image: Sujal,
+    image: Rahul,
   },
   {
     name: 'Shreya Gargya',
     position: 'Director of Special Events',
     major: 'Bioengineering',
     year: 'Sophomore',
-    image: Sujal,
+    image: Shreya,
   },
   {
     name: 'Jackie Way',
     position: 'Director of Advancement',
-    major: 'Material Science & Eng.',
+    major: 'Molecular & Cellular Biology',
     year: 'Junior',
-    image: Sujal,
+    image: Jackie,
   },
   {
     name: 'Daniela Zieba',
     position: 'Director of Startup Showcase',
     major: 'Computer Science',
     year: 'Sophomore',
-    image: Sujal,
+    image: Daniela,
   },
   {
     name: 'Nafiz Rahman',
     position: 'Historian',
     major: 'Computer Science',
     year: 'Sophomore',
-    image: Sujal,
+    image: Nafiz,
+  },
+  {
+    name: 'Jenni Nugent',
+    position: 'Graduate Advisor',
+    major: 'Civil & Environmental Engineering',
+    year: 'First Year Graduate',
+    image: Jenni,
   },
   {
     name: 'Michaela Patton',
@@ -170,9 +198,9 @@ const committee = [
     image: Sujal,
   },
   {
-    name: 'Dev Satpathy',
+    name: 'Kavya Sudhir',
     position: 'EFC Representative',
-    major: 'Computer Science',
+    major: 'Bioengineering',
     year: 'Freshman',
     image: Sujal,
   },
