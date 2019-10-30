@@ -9,7 +9,7 @@ import ExternalRoute from 'scenes/ExternalRoute';
 
 import corporatePacket from 'assets/EOH-100-Corporate-Packet.pdf';
 const exhibitorRegistration = 'https://docs.google.com/forms/d/e/1FAIpQLSe6lJrI3qEUPq25G9HpB_c-hWFiv44mh4nSXde7GbcVjKUC4w/viewform';
-
+const judgingForm = 'https://docs.google.com/forms/d/e/1FAIpQLSfKNS_bdedthZ5eyd9Qb751iFx94FTHt4J26y4rNWCn5UaXGQ/viewform';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/sponsor" exact component={ExternalRoute(corporatePacket)} />
           <Route path="/register" exact component={ExternalRoute(exhibitorRegistration)} />
+          <Route path="/judging" exact component={ExternalRoute(judgingForm)} />
           <Route path="/about" exact component={About} />
         </Switch>
         <Footer />
