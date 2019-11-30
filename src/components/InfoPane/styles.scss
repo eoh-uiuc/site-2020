@@ -1,0 +1,125 @@
+.info-pane {
+  background-color: rgba(0,0,0,0.0);
+  border: 1px solid #666;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  transition: border-color .3s, height .2s linear;
+
+  &:hover {
+    border-color: #aaa;
+    .pane-img {
+      opacity: 0.15;
+    }
+
+    .content .split .description:before {
+      opacity: 0;
+    }
+  }
+
+  .pane-img {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .3s, height .2s;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .content {
+    padding: 13px 22px;
+    position: relative;
+    transition: padding-top .2s linear;
+    z-index: 1;
+
+    .logistics {
+      display: flex;
+      flex-direction: row;
+
+      .time { flex-grow: 1; }
+      > p {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0;
+      }
+    }
+
+    .split {
+      padding-top: 12px;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+
+      .name {
+        flex-basis: 170px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        margin: 0;
+        padding-right: 60px;
+
+        h3 {
+          font-size: 28px;
+          font-weight: 600;
+          margin: 0;
+        }
+      }
+
+      .description {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        position: relative;
+
+        p {
+          margin: 0;
+        }
+
+        &.active:before {
+          opacity: 0;
+          display: none;
+        }
+
+        &:before {
+          background:linear-gradient(transparent, rgb(61, 30, 30));
+          content:'';
+          height: 65px;    
+          left: 0;
+          position: absolute;
+          top: 45px;
+          transition: opacity .2s;
+          width:100%;
+        }
+
+        a { text-decoration: underline; font-weight: bold; color: white; }
+      }
+
+      @media (max-width: 660px) {
+        flex-direction: column;
+        .name {
+          flex-basis: unset;
+          margin-bottom: 12px;
+        }
+
+        .description:before {
+          top: 2px;
+        }
+      }
+    }
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 6px;
+    left: calc(50% - 4px);
+    transition: transform .2s;
+    width: 8px;
+    z-index: 1;
+
+    &.up { transform: rotate(90deg); }
+    &.down { transform: rotate(-90deg); }
+  }
+}

@@ -1,0 +1,60 @@
+main.events-container {
+    position: relative;
+    scroll-behavior: smooth;
+    background: rgb(61, 30, 30);
+    box-sizing: border-box;
+    padding: 100px 70px;
+
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+    .events-nav {
+      left: 20px;
+      position: fixed;
+  
+      a {
+        color: rgba(255,255,255,0.4);
+        cursor: pointer;
+        display: block;
+        margin: 15px 12px;
+        text-decoration: none;
+        transition: color .4s;
+  
+        &:hover, &.active {
+          color: rgba(255,255,255,1);
+        }
+      }
+  
+      @media (max-width: 1050px) {
+        display: none;
+      }
+    }
+  
+    .events {
+      > .content {
+        margin: auto;
+        max-width: 980px;
+        padding-bottom: 30px;
+        width: 100%;
+  
+        @media (max-width: 1350px) {
+          max-width: 780px;
+        }
+        @media (max-width: 1150px) {
+          max-width: 690px;
+        }
+  
+        h1 {
+          font-size: 52px;
+          font-weight: 600;
+          margin-bottom: 10px;
+          @media (max-width: 979px) { text-align: center; }
+        }
+  
+        table {
+          border-collapse: separate;
+          border-spacing: 20px 2px;
+        }
+      }
+    }
+  }

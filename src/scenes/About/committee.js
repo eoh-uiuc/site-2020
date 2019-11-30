@@ -20,6 +20,10 @@ import Jackie from 'assets/headshots/Jackie.jpg';
 import Daniela from 'assets/headshots/Daniela.jpg';
 import Nafiz from 'assets/headshots/Nafiz.jpg';
 import Jenni from 'assets/headshots/Jenni.jpg';
+import Michael from 'assets/headshots/Michael.jpg';
+import Kavya from 'assets/headshots/Kavya.jpg';
+import Michaela from 'assets/headshots/Michaela.jpg';
+import Bella from 'assets/headshots/Bella.jpg';
 
 const committee = [
   {
@@ -69,7 +73,7 @@ const committee = [
     position: 'Director of Creative Design',
     major: 'Communications',
     year: 'Freshman',
-    image: Sujal,
+    image: Bella,
   },
   {
     name: 'Savni Nagarkar',
@@ -139,7 +143,7 @@ const committee = [
     position: 'MRDC Director',
     major: 'Idustrial Engineering',
     year: 'Senior',
-    image: Sujal,
+    image: Michael,
   },
   {
     name: 'Lauren Ho',
@@ -193,16 +197,16 @@ const committee = [
   {
     name: 'Michaela Patton',
     position: 'EFC Representative',
-    major: 'Computer Science',
+    major: 'Civil Engineering',
     year: 'Freshman',
-    image: Sujal,
+    image: Michaela,
   },
   {
     name: 'Kavya Sudhir',
     position: 'EFC Representative',
     major: 'Bioengineering',
     year: 'Freshman',
-    image: Sujal,
+    image: Kavya,
   },
 ];
 

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from 'scenes/Home';
 import Footer from 'components/Footer';
 import About from 'scenes/About';
+import Events from 'scenes/Events';
 import Nav from 'components/Nav';
 import ExternalRoute from 'scenes/ExternalRoute';
 
@@ -18,6 +19,7 @@ function App() {
         <Nav />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/events" exact component={Events} />
           <Route path="/sponsor" exact component={ExternalRoute(corporatePacket)} />
           <Route path="/register" exact component={ExternalRoute(exhibitorRegistration)} />
           <Route path="/judging" exact component={ExternalRoute(judgingForm)} />
