@@ -3,9 +3,9 @@ import React from 'react';
 import InfoPane from 'components/InfoPane';
 
 import defaultImage from 'assets/images/eoh-sign.jpg';
-import mrdcImage from 'assets/images/MRDC.jpg';
-import msdcImage from 'assets/images/MSDC.jpg';
-import robobrawlImage from 'assets/images/Robobrawl.jpg';
+// import mrdcImage from 'assets/images/MRDC.jpg';
+// import msdcImage from 'assets/images/MSDC.jpg';
+// import robobrawlImage from 'assets/images/Robobrawl.jpg';
 
 const Competitions = () => (
   <div className="content section">

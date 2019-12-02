@@ -1,9 +1,9 @@
 import React from 'react';
 
-import InfoPane from 'components/InfoPane';
+// import InfoPane from 'components/InfoPane';
 
-import generalImage from 'assets/images/GeneralTour.jpg';
-import customImage from 'assets/images/CustomTour.jpg';
+// import generalImage from 'assets/images/GeneralTour.jpg';
+// import customImage from 'assets/images/CustomTour.jpg';
 
 const Tours = () => (
   <div className="content section">

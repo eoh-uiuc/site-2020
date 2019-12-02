@@ -1,12 +1,12 @@
 import React from 'react';
 
-import InfoPane from 'components/InfoPane';
+// import InfoPane from 'components/InfoPane';
 
-import exhibitingImage from 'assets/images/eoh-sign.jpg';
-import startupImage from 'assets/images/startup_showcase.jpg';
-import teslaImage from 'assets/images/tesla-coil.jpeg';
-import alumniImage from 'assets/images/Alumni.jpg';
-import discoverImage from 'assets/images/Discover.jpg';
+// import exhibitingImage from 'assets/images/eoh-sign.jpg';
+// import startupImage from 'assets/images/startup_showcase.jpg';
+// import teslaImage from 'assets/images/tesla-coil.jpeg';
+// import alumniImage from 'assets/images/Alumni.jpg';
+// import discoverImage from 'assets/images/Discover.jpg';
 
 const EventSection = () => (
   <div className="content section">
