@@ -1,0 +1,62 @@
+.sponsor-container {
+    background: rgb(61, 30, 30);
+    box-sizing: border-box;
+    position: relative;
+    padding: 100px 190px;
+
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+    @media (max-width: 760px) { padding: 100px 70px; }
+
+
+    .button {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #b57828;
+        background-color: white;
+        cursor: pointer;
+        padding: 17px 18px;
+        border-radius: 6px;
+        border-color: #b57828;
+        border-width: 3px;
+        margin-bottom: 15px;
+        white-space: normal;
+        border: none;
+
+        &:hover {
+            color: white;
+            background-color: #b57828;
+            border-color: white;
+        }
+    }
+
+    .button-row, .itemized-button-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .button {
+            margin-right: 25px;
+        }
+    }
+    .button-row {
+        padding-bottom: 25px;
+    }
+    .itemized-button-row {
+        padding-bottom: 10px;
+    }
+}
+
+.corp-packet {
+    padding-top: 50px;
+    a {
+        color: white;
+        font-size: 25px;
+        &:hover {
+            font-weight: bold;
+        }
+    }
+    p {
+        font-size: 25px;
+    }
+}
