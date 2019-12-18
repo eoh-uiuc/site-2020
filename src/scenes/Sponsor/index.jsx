@@ -39,7 +39,7 @@ class Sponsor extends React.Component {
 
                 <h1>Focus Bundles</h1>
                 <div className="button-row">
-                    <form method="POST" action="https://bbisqa.uif.uillinois.edu/PaymentPageTransferQA.aspx" id="compeition-bundle-form" >
+                    <form method="POST" action="https://bbisqa.uif.uillinois.edu/PaymentPageTransferQA.aspx" id="competition-bundle-form" >
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="2500.00"/>
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
