@@ -9,6 +9,19 @@
 
     @media (max-width: 760px) { padding: 100px 70px; }
 
+    #page-description {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .deduction-description-container {
+        padding-bottom: 25px;
+        #deduction-description {
+            font-size: 17px;
+            margin: 2px;
+        }
+    }
 
     .button {
         font-family: 'Montserrat', sans-serif;
