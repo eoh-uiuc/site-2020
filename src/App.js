@@ -9,7 +9,7 @@ import Events from 'scenes/Events';
 import Nav from 'components/Nav';
 import ExternalRoute from 'scenes/ExternalRoute';
 
-const exhibitorRegistration = 'https://docs.google.com/forms/d/e/1FAIpQLSe6lJrI3qEUPq25G9HpB_c-hWFiv44mh4nSXde7GbcVjKUC4w/viewform';
+const exhibitorRegistration = 'https://forms.gle/63rEdLmUv5jTMrom6';
 const judgingForm = 'https://docs.google.com/forms/d/e/1FAIpQLSfKNS_bdedthZ5eyd9Qb751iFx94FTHt4J26y4rNWCn5UaXGQ/viewform';
 
 function App() {
