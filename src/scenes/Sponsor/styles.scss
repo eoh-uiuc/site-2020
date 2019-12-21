@@ -9,6 +9,19 @@
 
     @media (max-width: 760px) { padding: 100px 70px; }
 
+    #page-description {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .deduction-description-container {
+        padding-bottom: 25px;
+        #deduction-description {
+            font-size: 17px;
+            margin: 2px;
+        }
+    }
 
     .button {
         font-family: 'Montserrat', sans-serif;
@@ -19,10 +32,10 @@
         padding: 17px 18px;
         border-radius: 6px;
         border-color: #b57828;
-        border-width: 3px;
+        border-width: 1px;
+        border: solid;
         margin-bottom: 15px;
         white-space: normal;
-        border: none;
 
         &:hover {
             color: white;
