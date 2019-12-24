@@ -13,7 +13,7 @@ class Sponsor extends React.Component {
                 </p>
                 <h1>On-Site Packages</h1>
                 <div className="button-row">
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="silver-package-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="silver-package-form">
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="2792.50"/>
@@ -22,7 +22,7 @@ class Sponsor extends React.Component {
                     </form>
                     <input class="button" form="silver-package-form" id="submitbtn" type="submit" value="Silver $3,000" />
 
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="gold-package-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="gold-package-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="4665.00"/>
                         <input type="hidden" name="FUND2" value="N1556985/Engineering Open House NRG Fund"/>
@@ -31,7 +31,7 @@ class Sponsor extends React.Component {
                     </form>
                     <input class="button" form="gold-package-form" id="submitbtn" type="submit" value="Gold $5,000" />
 
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="platinum-package-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="platinum-package-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="8495.00"/>
                         <input type="hidden" name="FUND2" value="N1556985/Engineering Open House NRG Fund"/>
@@ -49,7 +49,7 @@ class Sponsor extends React.Component {
                 
                 <h1>Focus Bundles</h1>
                 <div className="button-row">
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="competition-bundle-form" >
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="competition-bundle-form" >
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="2500.00"/>
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
@@ -57,14 +57,14 @@ class Sponsor extends React.Component {
                     <input class="button" form="competition-bundle-form" id="submitbtn" type="submit" value="Competition $2,500" />
 
 
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="outreach-bundle-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="outreach-bundle-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="2500.00"/>
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
                     </form>
                     <input class="button" form="outreach-bundle-form" id="submitbtn" type="submit" value="Outreach $2,500" />
 
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="spotlight-bundle-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="spotlight-bundle-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="2500.00"/>
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
@@ -76,14 +76,14 @@ class Sponsor extends React.Component {
                 <h1>Itemized Options</h1>
                 <h3>Display Vehicle / Oversized</h3>
                 <div className="itemized-button-row">
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="vehicle-500-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="vehicle-500-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="500.00"/>
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
                     </form>
                     <input class="button" form="vehicle-500-form" id="submitbtn" type="submit" value="Display Vehicle $500" />
 
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="vehicle-1500-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="vehicle-1500-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="1500.00"/>
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
@@ -93,7 +93,7 @@ class Sponsor extends React.Component {
                 
                 <h3>Black & White Ad</h3>
                 <div className="itemized-button-row">
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="black-white-fourth-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="black-white-fourth-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="242.50"/>
                         <input type="hidden" name="FUND2" value="N1556985/Engineering Open House NRG Fund"/>
@@ -102,7 +102,7 @@ class Sponsor extends React.Component {
                     </form>
                     <input class="button" form="black-white-fourth-form" id="submitbtn" type="submit" value="1/4 $250" />
 
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="black-white-half-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="black-white-half-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="485.00"/>
                         <input type="hidden" name="FUND2" value="N1556985/Engineering Open House NRG Fund"/>
@@ -111,7 +111,7 @@ class Sponsor extends React.Component {
                     </form>
                     <input class="button" form="black-white-half-form" id="submitbtn" type="submit" value="1/2 $500" />
 
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="black-white-full-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="black-white-full-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="725.00"/>
                         <input type="hidden" name="FUND2" value="N1556985/Engineering Open House NRG Fund"/>
@@ -129,7 +129,7 @@ class Sponsor extends React.Component {
                 
                 <h3>Color Ad</h3>
                 <div className="itemized-button-row">
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="color-half-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="color-half-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="960.00"/>
                         <input type="hidden" name="FUND2" value="N1556985/Engineering Open House NRG Fund"/>
@@ -138,7 +138,7 @@ class Sponsor extends React.Component {
                     </form>
                     <input class="button" form="color-half-form" id="submitbtn" type="submit" value="Half $1,000" />
 
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="color-full-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="color-full-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="1920.00"/>
                         <input type="hidden" name="FUND2" value="N1556985/Engineering Open House NRG Fund"/>
@@ -155,35 +155,35 @@ class Sponsor extends React.Component {
                 
                 <h3>Other Itemized Options</h3>
                 <div className="itemized-button-row">
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="tech-talk-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="tech-talk-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="800.00"/>
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
                     </form>
                     <input class="button" form="tech-talk-form" id="submitbtn" type="submit" value="Host a Tech Talk or Panel $800" />
                     
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="exhibit-sponsor-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="exhibit-sponsor-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="500.00"/>
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
                     </form>
                     <input class="button" form="exhibit-sponsor-form" id="submitbtn" type="submit" value="Sponsor an Exhibit $500" />
                     
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="exhibitor-breakfast-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="exhibitor-breakfast-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="1500.00"/>
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
                     </form>
                     <input class="button" form="exhibitor-breakfast-form" id="submitbtn" type="submit" value="Sponsor the Exhibitor Breakfast $1,500" />
 
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="exhibitor-resume-book-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="exhibitor-resume-book-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="500.00"/>
                         <input type="hidden" name="TRACKING_CODE" value="10419"/>
                     </form>
                     <input class="button" form="exhibitor-resume-book-form" id="submitbtn" type="submit" value="Exhibitor Resume Book $500" />
                     
-                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="additional-representative-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransferGiftnongift.aspx" id="additional-representative-form">
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value="460.00"/>
                         <input type="hidden" name="FUND2" value="N1556985/Engineering Open House NRG Fund"/>
