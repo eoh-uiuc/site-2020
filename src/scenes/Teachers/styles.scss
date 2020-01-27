@@ -1,0 +1,84 @@
+@import '../../styles/variables.scss';
+
+.teachers {
+  position: relative;
+
+  img {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+
+    & > div {
+      box-sizing: border-box;
+      padding: 20px;
+
+      &:first-child {
+        width: 60%;
+      }
+      &:last-child {
+        width: 40%;
+      }
+    }
+  }
+
+  .columns.columns-3 {
+    max-width: 100%;
+    & > div {
+      width: 33.3333333%;
+      flex: 0 0 auto;
+    }
+  }
+
+  .ct {
+    text-align: center;
+    margin: 20px 0 30px 0;
+  }
+
+  .final-flex-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .final-wrapper {
+    @include background-gradient;
+    margin: 30px 5px 0 5px;
+    padding: 3px;
+
+    .final {
+      background-color: rgb(61, 30, 30);
+      font-size: 22px;
+      font-weight: bold;
+      padding: 8px 20px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .teachers .columns.columns-3 {
+    flex-wrap: wrap;
+
+    & > div {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .teachers .columns > div:first-child {
+    flex-grow: 1;
+  }
+
+  .image-wrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,47 @@
+// Inspired by Twitter Bootstrap container
+
+$container-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$narrow-container-widths: (
+  sm: 520px,
+  md: 700px,
+  lg: 850px,
+  xl: 990px 
+);
+
+.container {
+  box-sizing: border-box;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+
+  @each $size, $width in $container-widths {
+    $break: map-get($map: $grid-breakpoints, $key: $size);
+    @media (min-width: $break) {
+      max-width: $width;
+    }
+  }
+}
+
+.narrow-container {
+  @each $size, $width in $narrow-container-widths {
+    $break: map-get($map: $grid-breakpoints, $key: $size);
+    @media (min-width: $break) {
+      max-width: $width;
+    }
+  }
+}

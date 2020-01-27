@@ -50,6 +50,10 @@ main.events-container {
           margin-bottom: 10px;
           @media (max-width: 979px) { text-align: center; }
         }
+
+        a {
+          color: white;
+        }
   
         table {
           border-collapse: separate;
