@@ -4,6 +4,7 @@ import InfoPane from 'components/InfoPane';
 
 import defaultImage from 'assets/images/eoh-sign.jpg';
 import startupImage from 'assets/images/startup_showcase.jpg';
+import alumniImage from 'assets/images/Alumni.jpg';
 
 const EventSection = () => (
   <div className="content section">
@@ -30,6 +31,17 @@ const EventSection = () => (
       Century of Innovation, what do you want to be when you grow up?, Student Leaders, and Startups. 
       Join us to hear about the experiences of students, alums, and professors in these areas. 
       If you are interested in being on one of our panels, please fill out <a href="https://docs.google.com/forms/u/2/d/e/1FAIpQLScnempdbGkpxP_56lnvc_xT2NW9BvFncssmR8L6sTj8LhjxWg/viewform?usp=send_form" target="_blank" rel="noopener noreferrer">this form</a>.
+      </p>
+    </InfoPane>
+    <InfoPane
+      image={alumniImage}
+      name="Plaque Dedication &amp; Alumni Reception"
+      time="Saturday, 2 pm - 3:30 pm"
+      location="Area 51 (Between Everitt / Engineering Hall)"
+    >
+      <p>
+      To commemorate the past 100 years of EOH, we will be holding a plaque dedication ceremony to celebrate. 
+      Come by to network with fellow alumni! Refreshments will be served.
       </p>
     </InfoPane>
   </div>
