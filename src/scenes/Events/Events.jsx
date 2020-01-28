@@ -35,9 +35,19 @@ const EventSection = () => (
     </InfoPane>
     <InfoPane
       image={alumniImage}
+      name="Alumni Welcome Center"
+      time="Friday, 10 am - 3:30 pm | Saturday, 10 am - 3:30 pm"
+      location="3rd Floor of Engineering Hall"
+    >
+      <p>
+      The Grainger College of Engineering welcomes all alumni to the third floor of Engineering Hall 
+      for snacks and a warm place to relax throughout the day.
+      </p>
+    </InfoPane>
+    <InfoPane
+      image={alumniImage}
       name="Plaque Dedication &amp; Alumni Reception"
       time="Saturday, 2 pm - 3:30 pm"
-      location="Area 51 (Between Everitt / Engineering Hall)"
     >
       <p>
       To commemorate the past 100 years of EOH, we will be holding a plaque dedication ceremony to celebrate. 
