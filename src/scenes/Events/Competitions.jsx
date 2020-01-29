@@ -4,6 +4,9 @@ import InfoPane from 'components/InfoPane';
 
 import defaultImage from 'assets/images/eoh-sign.jpg';
 import mrdcImage from 'assets/images/MRDC.jpg';
+import msdcImage from 'assets/images/MSDC.jpg';
+
+import msdcPacket from 'assets/MSDC-rules.pdf';
 
 const Competitions = () => (
   <div className="content section">
@@ -34,6 +37,18 @@ const Competitions = () => (
       </p>
       <br />
       <p>Find out more at <a href="http://mrdc.ec.illinois.edu/" target="_blank" rel="noopener noreferrer">mrdc.ec.illinois.edu</a>!</p>
+    </InfoPane>
+    <InfoPane
+      image={msdcImage}
+      time="Saturday, 8 am - 3 pm"
+      name="MSDC"
+      location="ECEB"
+    >
+      <p>
+      The Middle School Design Competition is an opportunity for middle school students to design and test a successful 
+      and lightweight egg-drop device. All interested students are encouraged to participate! The deadline to register is February 15, 2020. 
+      Register your team <a href="https://forms.gle/w3AUu79mpWzXPC126" target="_blank" rel="noopener noreferrer">here</a> and view the MSDC competition rules <a href={msdcPacket} target="_blank" rel="noopener noreferrer">here</a>!
+      </p>
     </InfoPane>
     <InfoPane
       image={defaultImage}
