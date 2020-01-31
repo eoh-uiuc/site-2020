@@ -93,7 +93,7 @@ const committee = [
     name: 'Alara Sunar',
     position: 'Director of Vistor’s Information',
     major: 'Bioengineering',
-    year: 'Sophomore',
+    year: 'Junior',
     image: Alara,
   },
   {
