@@ -1,0 +1,67 @@
+.donor-container {
+    background: rgb(61, 30, 30);
+    box-sizing: border-box;
+    position: relative;
+    padding: 160px 190px;
+    min-height: calc(100vh - 110px);
+
+    .donor-description {
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    @media (max-width: 760px) { padding: 100px 70px; }
+
+    .button {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #b57828;
+        background-color: white;
+        cursor: pointer;
+        padding: 8px 10px;
+        border-radius: 6px;
+        border-color: #b57828;
+        border-width: 1px;
+        border: solid;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        white-space: normal;
+
+        &:hover {
+            color: white;
+            background-color: #b57828;
+            border-color: white;
+        }
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 8px;
+
+        #donor-input {
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            padding: 11px 18px 11px 10px;
+            margin-right: 12px;
+            font-size: 15px;
+            width: 62px;
+            height: 21px;
+        }
+    }
+
+    // Remove number input arrows
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+    /* Firefox */
+    input[type=number] {
+    -moz-appearance:textfield;
+    }
+}

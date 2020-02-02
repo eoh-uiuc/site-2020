@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import Dropdown from './card.jsx';
+
 import Logo from 'assets/logo.png';
 import menuIcon from 'assets/icons/menu_icon.svg';
 import close from 'assets/icons/left.svg';
@@ -13,12 +15,14 @@ class Nav extends Component {
     this.state = {
       top: true,
       open: false,
+      dropdownOpen: false,
     };
 
     this.toggleMenu = this.toggleMenu.bind(this);
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
+    this.toggleDropdown = this.toggleDropdown.bind(this);
   }
 
   componentDidMount() {
@@ -58,6 +62,12 @@ class Nav extends Component {
     }));
   }
 
+  toggleDropdown() {
+    this.setState(prevState => ({
+      dropdownOpen: !prevState.dropdownOpen,
+    }));
+  }
+
   render() {
     const { open, top } = this.state;
 
@@ -85,7 +95,7 @@ class Nav extends Component {
           <Link onClick={this.toggleMenu} to="/">Home</Link>
           <Link onClick={this.toggleMenu} to="/events">Tours &amp; Events</Link>
           <Link onClick={this.toggleMenu} to="/teachers">For Teachers</Link>
-          <Link onClick={this.toggleMenu} to="/sponsor">Support Us</Link>
+          <Dropdown />
           <Link onClick={this.toggleMenu} to="/about">About Us</Link>
         </nav>
       </nav>

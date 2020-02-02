@@ -35,7 +35,7 @@ nav#site-nav {
 
   .nav-links {
     img { display: none; }
-    a {
+    a, button {
       color: white;
       display: inline-block;
       font-weight: 300;
@@ -59,6 +59,19 @@ nav#site-nav {
 
     .menu-icon {
       display: inline-block;
+    }
+
+    .dropdown {
+      width: 100%;
+      button {
+        background-position: 77% 52%;
+      }
+    }
+
+    .dropdown-menu {
+      position: relative;
+      background-color: rgb(17, 17, 17);
+      padding: 0;
     }
 
     .nav-links {
@@ -91,7 +104,7 @@ nav#site-nav {
         }
       }
 
-      a {
+      a, button {
         border-bottom: 2px solid #333;
         box-sizing: border-box;
         font-size: 22px;
@@ -106,5 +119,29 @@ nav#site-nav {
         }
       }
     }
+  }
+}
+
+.dropdown {
+  display: inline-block;
+
+  button {
+    background: url('../../assets/icons/dropdown.svg') no-repeat;
+    background-position: 100% 58%;
+    padding-right: 14px;
+    padding-left: 0;
+    border: none;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 6px 0 6px 0;
+    border-radius: 5px;
   }
 }
