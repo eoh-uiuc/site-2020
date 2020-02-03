@@ -27,7 +27,7 @@ function App() {
           <Route path="/judging" exact component={ExternalRoute(judgingForm)} />
           <Route path="/about" exact component={About} />
           <Route path="/teachers" exact component={Teachers} />
-          <Route path="/donor" exact component={Donors} />
+          <Route path="/donate" exact component={Donors} />
         </Switch>
         <Footer />
       </div>

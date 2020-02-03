@@ -38,7 +38,7 @@ class Card extends Component {
                 {this.state.showMenu ? 
                     <div className="dropdown-menu">
                         <Link onClick={this.toggleMenu} to="/sponsor">Sponsors</Link>
-                        <Link onClick={this.toggleMenu} to="/donor">Donors</Link>
+                        <Link onClick={this.toggleMenu} to="/donate">Donors</Link>
                     </div>
                     : null
                 }
