@@ -55,7 +55,7 @@ class Donor extends Component {
 
                 <div className="input-container">
                     <input type="number" id="donor-input" placeholder="$0.00" onInput={this.handleDonorInput}/>
-                    <form method="POST" action="https://bbisqa.uif.uillinois.edu/PaymentPageTransferQA.aspx" id="donor-form">
+                    <form method="POST" action="https://www.uif.uillinois.edu/gifts/PaymentPageTransfer.aspx" id="donor-form">
                         <input type="hidden" name="TRACKING_CODE" value="10434"/>
                         <input type="hidden" name="FUND1" value="11331546/Engineering Open House Fund"/>
                         <input type="hidden" name="GIFT_AMOUNT1" value={this.state.donorInput} />
