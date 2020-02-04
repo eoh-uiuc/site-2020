@@ -13,6 +13,7 @@ import Donors from 'scenes/Donor';
 
 const exhibitorRegistration = 'https://forms.gle/63rEdLmUv5jTMrom6';
 const judgingForm = 'https://docs.google.com/forms/d/e/1FAIpQLSfKNS_bdedthZ5eyd9Qb751iFx94FTHt4J26y4rNWCn5UaXGQ/viewform';
+const volunteerForm = 'https://www.signupgenius.com/go/70a0545a8ad2fa7fa7-engineering';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/teachers" exact component={Teachers} />
           <Route path="/donate" exact component={Donors} />
+          <Route path="/volunteer" exact component={ExternalRoute(volunteerForm)} />
         </Switch>
         <Footer />
       </div>
