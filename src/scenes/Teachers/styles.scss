@@ -30,10 +30,10 @@
     }
   }
 
-  .columns.columns-3 {
+  .columns.columns-2 {
     max-width: 100%;
     & > div {
-      width: 33.3333333%;
+      width: 50%;
       flex: 0 0 auto;
     }
   }
@@ -64,7 +64,7 @@
 }
 
 @media (max-width: 991px) {
-  .teachers .columns.columns-3 {
+  .teachers .columns.columns-2 {
     flex-wrap: wrap;
 
     & > div {

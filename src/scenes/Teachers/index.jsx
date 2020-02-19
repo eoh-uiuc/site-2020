@@ -30,22 +30,23 @@ const Teachers = () => {
               <img src={TeachersImage} alt="" />
             </div>
           </div>
-          {/* <div className="columns columns-3">
+          <div className="columns columns-2">
             <div>
-              <h1>Custom Tours</h1>
+              <h1>Teacher Workshop</h1>
               <p>
-                You may register for custom tours at the following link!  Custom tours are
-                a great way to organize your trip around certain categories to match your class’s interests.
-                Custom tour sign-ups are due February 27th.
+                TEACHERS! COUNSELORS! Register for the Grainger College of Engineering College Steps Workshop on 
+                Friday March 27th from 11:30am – 1:00pm.  This session will educate you about ways to expose your 
+                students to STEM, our majors, STEM activity lesson plans, preparatory classes, the admissions process and more.  
+                Plan to have chaperones for your students.  Lunch provided.  All secondary educators (grades 6 – 12th) are welcome to join.
               </p>
               <a
                 href="https://goo.gl/forms/HBfHXdsWfQ0Dwf3P2"
-                className="button-gradient purple"
+                className="button-gradient yellow"
               >
-                Custom Tour Sign-Up
+                Workshop Sign-Up
               </a>
             </div>
-            <div>
+            {/* <div>
               <h1>Discover EOH</h1>
               <p>
                 If you would like a more interactive experience with your class, this year’s Discover EOH
@@ -65,8 +66,8 @@ const Teachers = () => {
               </p>
               <a href="/ShuttleMap.pdf" className="button-gradient purple">Shuttle Map</a>
               <a href="/School-Bus-Instructions.pdf" className="button-gradient purple">School Bus Instructions</a>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
           <br />
           <div className="final-flex-wrapper">
             <div className="final-wrapper">
