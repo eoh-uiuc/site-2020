@@ -40,7 +40,7 @@ const Teachers = () => {
                 Plan to have chaperones for your students.  Lunch provided.  All secondary educators (grades 6 – 12th) are welcome to join.
               </p>
               <a
-                href="https://goo.gl/forms/HBfHXdsWfQ0Dwf3P2"
+                href="https://forms.illinois.edu/sec/5108032"
                 className="button-gradient yellow"
               >
                 Workshop Sign-Up
