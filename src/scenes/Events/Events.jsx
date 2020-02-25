@@ -10,6 +10,19 @@ const EventSection = () => (
   <div className="content section">
     <h1>Events</h1>
     <InfoPane
+      image={defaultImage}
+      name="Illini Solar Car Unveiling"
+      time="Friday, 11:30 am - 12:15 pm"
+      location="ECEB 1002"
+    >
+      <p>
+      Illini Solar Car is proud to unveil their all-new solar car at Engineering Open House 2020. Stop by during
+      the event to see the next generation of the Illini Solar Car released, or see both the new and old cars on display during the remainder of 
+      Engineering Open House! We'll be discussing how we designed and built our new car as well as the upcoming race this summer. This 
+      event is best for high school students and adults interested in learning about solar cars and competitive road racing.
+      </p>
+    </InfoPane>
+    <InfoPane
       image={startupImage}
       time="Friday, 9 am - 4 pm | Saturday, 9 am - 3:30 pm"
       name="Startup Showcase"
