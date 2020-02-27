@@ -61,10 +61,15 @@ const EventSection = () => (
       name="Speaker Series"
     >
       <p>
-      We have a series of exciting panels lined up for this year’s EOH! Our topics include a 
-      Century of Innovation, what do you want to be when you grow up?, Student Leaders, and Startups. 
-      Join us to hear about the experiences of students, alums, and professors in these areas. 
-      If you are interested in being on one of our panels, please fill out <a href="https://docs.google.com/forms/u/2/d/e/1FAIpQLScnempdbGkpxP_56lnvc_xT2NW9BvFncssmR8L6sTj8LhjxWg/viewform?usp=send_form" target="_blank" rel="noopener noreferrer">this form</a>.
+        We have a series of exciting panels lined up for this year’s EOH! Join us to hear about the experiences of students, alums, and professors in these areas. 
+        <br/>
+        <br/>Steel Dynamics Tech Talk: Friday, 11 am
+        <br/>A Century of Innovation: Friday, 1 pm | Everitt 1306
+        <br/>Synchrony Tech Talk: Friday, 2 pm | ECEB 1002
+        <br/>What do you want to be when you grow up?: Friday, 3 pm | Everitt 1306
+        <br/>P&G Tech Talk: Saturday, 10 am
+        <br/>Student Leaders Panel: Saturday, 11 am | Everitt 1306
+        <br/>Startup Showcase: Saturday, 1 pm | Everitt 1306
       </p>
     </InfoPane>
     <InfoPane
