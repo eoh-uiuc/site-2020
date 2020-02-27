@@ -5,6 +5,7 @@ import InfoPane from 'components/InfoPane';
 import defaultImage from 'assets/images/eoh-sign.jpg';
 import startupImage from 'assets/images/startup_showcase.jpg';
 import alumniImage from 'assets/images/Alumni.jpg';
+import teslaImage from 'assets/images/tesla-coil.jpeg';
 
 const EventSection = () => (
   <div className="content section">
@@ -20,6 +21,28 @@ const EventSection = () => (
       the event to see the next generation of the Illini Solar Car released, or see both the new and old cars on display during the remainder of 
       Engineering Open House! We'll be discussing how we designed and built our new car as well as the upcoming race this summer. This 
       event is best for high school students and adults interested in learning about solar cars and competitive road racing.
+      </p>
+    </InfoPane>
+    <InfoPane
+      image={defaultImage}
+      name="Keynote Speaker: Nadya Mason"
+      time="Friday, 4 pm - 5 pm"
+      location="ECEB 1002"
+    >
+      <p>
+        Introducing this year's EOH keynote speaker Nadya Mason. 
+        The talk will be held in ECEB 1002, Grainger Auditorium.
+      </p>
+    </InfoPane>
+    <InfoPane
+      image={teslaImage}
+      name="Tesla Coil Concert"
+      time="Friday, 7:30 pm - 8:30 pm"
+      location="Undergraduate Library"
+    >
+      <p>
+        Get excited for the annual Tesla Coil Concert! 
+        With some new tunes, let's rock it out engineering-style.
       </p>
     </InfoPane>
     <InfoPane
