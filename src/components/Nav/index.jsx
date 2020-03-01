@@ -94,6 +94,7 @@ class Nav extends Component {
           <a href="https://www.volunteer.eohillinois.org">Volunteer</a> */}
           <Link onClick={this.toggleMenu} to="/">Home</Link>
           <Link onClick={this.toggleMenu} to="/events">Tours &amp; Events</Link>
+          {/* <Link onClick={this.toggleMenu} to="/transportation">Transportation</Link> */}
           <Link onClick={this.toggleMenu} to="/teachers">For Teachers</Link>
           <a href="https://www.signupgenius.com/go/70a0545a8ad2fa7fa7-engineering" target="_blank" rel="noopener noreferrer" >Volunteer</a>
           <Dropdown />

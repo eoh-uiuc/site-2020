@@ -10,6 +10,7 @@ import Nav from 'components/Nav';
 import ExternalRoute from 'scenes/ExternalRoute';
 import Teachers from 'scenes/Teachers';
 import Donors from 'scenes/Donor';
+import Transportation from 'scenes/Transportation';
 
 const exhibitorRegistration = 'https://forms.gle/63rEdLmUv5jTMrom6';
 const judgingForm = 'https://docs.google.com/forms/d/e/1FAIpQLSfKNS_bdedthZ5eyd9Qb751iFx94FTHt4J26y4rNWCn5UaXGQ/viewform';
@@ -30,6 +31,7 @@ function App() {
           <Route path="/teachers" exact component={Teachers} />
           <Route path="/donate" exact component={Donors} />
           <Route path="/volunteer" exact component={ExternalRoute(volunteerForm)} />
+          {/* <Route path="/transportation" exact component={Transportation} /> */}
         </Switch>
         <Footer />
       </div>

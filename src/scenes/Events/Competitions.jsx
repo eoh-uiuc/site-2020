@@ -5,6 +5,7 @@ import InfoPane from 'components/InfoPane';
 import defaultImage from 'assets/images/eoh-sign.jpg';
 import mrdcImage from 'assets/images/MRDC.jpg';
 import msdcImage from 'assets/images/MSDC.jpg';
+import robobrawlImage from 'assets/images/Robobrawl.jpg';
 
 import msdcPacket from 'assets/MSDC-rules.pdf';
 
@@ -60,6 +61,29 @@ const Competitions = () => (
         The High School Design Competition is a competiton for High Schoolers to show off
         the Rube Goldberg contraptions they have been designing and building. The deadline to register is
         February 20, 2020. Find out more at <a href="http://rubegoldberg.com/">rubegoldberg.com</a>!
+      </p>
+    </InfoPane>
+    <InfoPane
+      image={robobrawlImage}
+      time="Friday, 9 am - 4 pm | Saturday, 9 am - 3 pm"
+      name="Robobrawl"
+      location="Bardeen Quad"
+    >
+      <p>
+        Do you want to see some battle-bots! Do you want to see some mass destruction!
+        Welcome to 2020 Robobrawl! 
+      </p>
+      <br />
+      <p>
+        Robobrawl is an annual combat robotics event that takes place each year during
+        the Engineering Open House on the University of Illinois campus. The event
+        consists of a double elimination tournament over the two days of Engineering
+        Open House where each team battles for dominance. The current format consists
+        of 30 pound combat robots fighting in a 16′ x 16′ arena.
+      </p>
+      <br />
+      <p>
+        Find out more at <a href="http://robobrawl.illinois.edu">robobrawl.illinois.edu</a>
       </p>
     </InfoPane>
   </div>

@@ -1,0 +1,123 @@
+@import '../../styles/variables.scss';
+
+.info {
+  .intro {
+    margin-bottom: 30px;
+
+    h3 {
+      display: block;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  .header-wrapper {
+    @include background-gradient(65deg);
+    display: inline-block;
+    margin-bottom: 20px;
+
+    h1 {
+      background-color: rgb(61, 30, 30);;
+      margin: -1px -1px 3px -1px;
+      padding-bottom: 4px;
+
+      @media (max-width: 767px) { text-align: center; }
+    }
+  }
+
+  .map {
+    margin-bottom: 40px;
+    > p {
+      display: block;
+      font-size: 0.75em;
+      margin-top: 8px;
+      text-align: center;
+    }
+
+    .marker {
+      img { width: 10px; }
+    }
+  }
+
+  .legend {
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #fff9fa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+
+    .item {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      padding: 5px 12px;
+
+      p {
+        color: #333;
+
+        &::before {
+          content: '-';
+          margin: 0 3px;
+        }
+      }
+    }
+
+    .area {
+      height: 15px;
+      width: 30px;
+    }
+
+    .exhibit {
+      background-color: rgba(33, 150, 243, 0.2);
+      border: 1px solid rgba(0, 105, 192, 0.9);
+    }
+
+    .parking {
+      background-color: rgba(142, 36, 170, 0.3);
+      border: 1px solid rgba(92, 0, 122, 0.9);
+    }
+
+    .shuttle-route {
+      width: 30px;
+      border: 3px solid rgba(255, 0, 0, 0.6);
+    }
+
+    .shuttle-icon {
+      width: 20px;
+    }
+  }
+
+  .qa-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .qa {
+      box-sizing: border-box;
+      padding: 10px 20px;
+      width: 33.3333%;
+
+      @media (max-width: 767px) {
+        width: 50%;
+      }
+      @media (max-width: 576px) {
+        width: 100%;
+      }
+
+      h6 { font-size: 1em; }
+      p, li {
+        color: #ccc;
+        font-size: 0.85em;
+        line-height: 1.5;
+      }
+      li {
+        margin-left: 15px;
+      }
+    }
+  }
+}
