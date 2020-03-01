@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ShuttleIcon from 'assets/icons/bus.svg';
+// import ShuttleIcon from 'assets/icons/bus.svg';
 
 import './styles.scss';
 
