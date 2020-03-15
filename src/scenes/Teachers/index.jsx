@@ -32,18 +32,22 @@ const Teachers = () => {
           </div>
           <div className="columns columns-2">
             <div>
-              <h1>Teacher Workshop</h1>
+              <h1>College Steps Workshop</h1>
               <p>
                 TEACHERS! COUNSELORS! Register for the Grainger College of Engineering College Steps Workshop on 
-                Friday March 27th from 11:30am – 1:00pm.  This session will educate you about ways to expose your 
+                Friday March 27th from 11:30am – 12:30pm.  This session will educate you about ways to expose your 
                 students to STEM, our majors, STEM activity lesson plans, preparatory classes, the admissions process and more.  
-                Plan to have chaperones for your students.  Lunch provided.  All secondary educators (grades 6 – 12th) are welcome to join.
+                All secondary educators (grades 6 – 12th) are welcome to join.
+              </p>
+              <br />
+              <p>
+                Login at 11:30am on Friday, March 27th <a href="https://us.bbcollab.com/collab/ui/session/guest/f49279dc6f914f05a5b280a46f990cf7" style={{textDecoration: 'underline', fontWeight: "bold"}}>HERE</a>.
               </p>
               <a
                 href="https://forms.illinois.edu/sec/5108032"
                 className="button-gradient yellow"
               >
-                Workshop Sign-Up
+                Register
               </a>
             </div>
             {/* <div>
