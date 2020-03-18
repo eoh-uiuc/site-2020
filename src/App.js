@@ -5,7 +5,6 @@ import Home from 'scenes/Home';
 import Sponsor from 'scenes/Sponsor';
 import Footer from 'components/Footer';
 import About from 'scenes/About';
-import Events from 'scenes/Events';
 import Nav from 'components/Nav';
 import Teachers from 'scenes/Teachers';
 import Donors from 'scenes/Donor';
