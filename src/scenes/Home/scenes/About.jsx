@@ -4,16 +4,13 @@ const About = () => (
     <div className="about-wrapper">
         <h1>Engineering Open House 2020</h1>
         <p>
-            Engineering Open House is an annual student-led STEM fair featuring two days
-            of exciting exhibits and captivating competitions. Join us for the 100th celebration of the
-            talent and ingenuity of engineering students at the University of Illinois
-            at Urbana-Champaign.
+            We regret to inform you that EOH 100 will no longer be happening as planned. Unfortunately, 
+            EOH will not be allowed to take place due to the COVID-19 virus. We realize this is incredibly 
+            disappointing for all parties involved, exhibitors, sponsors, the committee, and the visitors as well as the college. 
         </p>
         <br />
         <p>
-            The event is open to the public at no cost. Families, students, and
-            community members are invited to come and experience the atmosphere
-            of innovation and creativity.
+            Thank you for your commitment to our event, and we apologize for any inconvenience.  
         </p>
     </div>
 );
