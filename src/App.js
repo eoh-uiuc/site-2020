@@ -8,6 +8,7 @@ import About from 'scenes/About';
 import Nav from 'components/Nav';
 import Teachers from 'scenes/Teachers';
 import Donors from 'scenes/Donor';
+import EOHComesToYou from 'scenes/EOHComesToYou';
 // import Transportation from 'scenes/Transportation';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/teachers" exact component={Teachers} />
           <Route path="/donate" exact component={Donors} />
+          <Route path="/eoh-comes-to-you" exact component={EOHComesToYou} />
           {/* <Route path="/volunteer" exact component={ExternalRoute(volunteerForm)} /> */}
           {/* <Route path="/transportation" exact component={Transportation} /> */}
         </Switch>

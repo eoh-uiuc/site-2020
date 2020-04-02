@@ -10,7 +10,9 @@ const About = () => (
         </p>
         <br />
         <p>
-            Thank you for your commitment to our event, and we apologize for any inconvenience.  
+            In an effort to still interact with the EOH community despite the cancellation, 
+            we will be uploading videos explaining STEM activities that you can safely do at home. Check out "EOH Comes to You" for more! 
+            Thank you for your support and commitment to our event.
         </p>
     </div>
 );
