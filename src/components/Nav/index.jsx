@@ -96,7 +96,6 @@ class Nav extends Component {
           {/* <Link onClick={this.toggleMenu} to="/events">Tours &amp; Events</Link> */}
           {/* <Link onClick={this.toggleMenu} to="/transportation">Transportation</Link> */}
           <Link onClick={this.toggleMenu} to="/eoh-comes-to-you">EOH Comes to You</Link>
-          <Link onClick={this.toggleMenu} to="/teachers">For Teachers</Link>
           {/* <a href="https://www.signupgenius.com/go/70a0545a8ad2fa7fa7-engineering" target="_blank" rel="noopener noreferrer" >Volunteer</a> */}
           <Dropdown />
           <Link onClick={this.toggleMenu} to="/about">About Us</Link>

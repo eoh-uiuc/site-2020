@@ -6,7 +6,6 @@ import Sponsor from 'scenes/Sponsor';
 import Footer from 'components/Footer';
 import About from 'scenes/About';
 import Nav from 'components/Nav';
-import Teachers from 'scenes/Teachers';
 import Donors from 'scenes/Donor';
 import EOHComesToYou from 'scenes/EOHComesToYou';
 // import Transportation from 'scenes/Transportation';
@@ -23,7 +22,6 @@ function App() {
           {/* <Route path="/register" exact component={ExternalRoute(exhibitorRegistration)} /> */}
           {/* <Route path="/judging" exact component={ExternalRoute(judgingForm)} /> */}
           <Route path="/about" exact component={About} />
-          <Route path="/teachers" exact component={Teachers} />
           <Route path="/donate" exact component={Donors} />
           <Route path="/eoh-comes-to-you" exact component={EOHComesToYou} />
           {/* <Route path="/volunteer" exact component={ExternalRoute(volunteerForm)} /> */}
